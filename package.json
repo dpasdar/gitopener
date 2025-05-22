@@ -1,0 +1,42 @@
+{
+  "name": "gitopener",
+  "displayName": "gitopener",
+  "description": "opens github or gitlab of the current file",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gitopener.openRepoInBrowser",
+        "title": "Open Git Repository in Browser"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.100.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.25.1"
+  },
+  "dependencies": {
+    "open": "^10.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dpasdar/gitopener.git"
+  }
+}
