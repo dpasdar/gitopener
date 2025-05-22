@@ -4,7 +4,7 @@ A Visual Studio Code extension that allows you to quickly open the Git repositor
 
 ## Features
 
-- Open the current repository's remote URL in your default browser with a single command
+- Open the current repository's remote URL in your default browser with a single command and navigates to actions/pipelines
 - Supports multiple remote configurations (origin, upstream, etc.)
 - Works with both HTTPS and SSH repository URLs
 - Simple and intuitive command palette integration
